@@ -1,0 +1,51 @@
+.text_style {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text_style p {
+  display: inline-block;
+  text-align: center;
+  align-self: flex-end;
+  width: 100%;
+  padding: 30px 0px;
+}
+.text_xs {
+  font-size: 12px;
+}
+.text_sm {
+  font-size: 14px;
+}
+.text_md {
+  font-size: 16px;
+}
+.text_lg {
+  font-size: 18px;
+}
+.text_xl {
+  font-size: 20px;
+}
+
+.sub_line_t {
+  border-top: 1px solid #ccc;
+}
+
+.tit_xs {
+  font-weight: 100;
+}
+.tit_sm {
+  font-weight: 300;
+}
+.tit_md {
+  font-weight: 500;
+}
+.tit_lg {
+  font-weight: 700;
+}
+.tit_xl {
+  font-weight: 900;
+}
+.text_lineheight {
+  font-size: 14px;
+  line-height: 22px;
+}

@@ -91,7 +91,8 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  font-family: sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
+  color: rgba(106, 115, 132); /*진*/
 }
 
 /* make sure to set some focus styles for accessibility */
@@ -116,7 +117,7 @@ section {
 
 body {
   line-height: 1;
-  /* background: rgba(244, 247, 253); */
+  background: rgba(244, 247, 253);
 }
 
 ol,
@@ -468,7 +469,7 @@ h2 {
   font-size: 26px;
   color: #222;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 h3 {
@@ -515,7 +516,6 @@ code {
   position: fixed;
   left: 0px;
   top: 0px;
-  border-right: solid 1px #ccc;
 }
 .lnb ul {
   display: block;
