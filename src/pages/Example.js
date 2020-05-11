@@ -4,6 +4,7 @@ import html_class from "../images/html_class.png";
 import iconcss from "../images/iconcss.png";
 import cssnew from "../images/cssnew.png";
 import changeclass from "../images/changeclass.png";
+import icon_change from "../images/icon_change.png";
 
 const Example = () => {
   return (
@@ -56,10 +57,22 @@ const Example = () => {
         <b>아이콘변경</b>
         <br />
         <br />
-        <img src={cssnew} className="bem_img" />
+        <img src={changeclass} className="bem_img" />
 
         <div className="bem_text">
-          <div>녹색 기프티 아이콘 class 추가</div>
+          <div>녹색 기프티 아이콘 class 추가 후 변경</div>
+        </div>
+      </section>
+
+      <section>
+        <br />
+        <b>아이콘변경확인</b>
+        <br />
+        <br />
+        <img src={icon_change} className="bem_img" />
+
+        <div className="bem_text">
+          <div>녹색 기프티 아이콘 class 추가 후 변경</div>
         </div>
       </section>
     </div>

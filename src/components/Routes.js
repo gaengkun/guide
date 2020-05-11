@@ -19,7 +19,7 @@ export default () => {
         <Route exact path="/Font" component={Font} />
         <Route exact path="/Start" component={Start} />
         <Route exact path="/Example" component={Example} />
-        <Redirect to="/error" />
+        <Route exact path="/Sassbem" component={Sassbem} />
       </Switch>
     </React.Suspense>
   );
