@@ -462,7 +462,7 @@ h1 {
   padding-bottom: 40px;
   font-weight: 500;
   margin-top: 60px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #333;
 }
 h2 {
   font-size: 26px;
@@ -510,7 +510,7 @@ code {
   height: 100%;
   background: #fff;
   width: 260px;
-  padding: 0px 70px;
+  padding: 0px 30px;
   overflow: hidden;
   position: fixed;
   left: 0px;
@@ -523,12 +523,12 @@ code {
 }
 .lnb li a {
   font-size: 20px;
-  color: rgba(155, 162, 180);
+  color: #333;
   display: block;
   text-decoration: none;
   font-weight: 500;
   display: block;
-  padding: 15px 0px;
+  padding: 8px 0px;
 }
 
 .lnb li a.on {
@@ -548,7 +548,7 @@ a:active {
 
 .content section {
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   overflow: hidden;
   display: inline-block;
 }
@@ -557,14 +557,14 @@ a:active {
   display: flex;
 }
 .bg_color li {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 20px;
   margin-top: 0px;
-  border: 1px solid rgba(155, 164, 181);
+  width: 50px;
 }
 .bg_color li:nth-child(1) {
   margin-left: 0px;
