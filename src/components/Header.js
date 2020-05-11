@@ -16,9 +16,11 @@ const Header = () => {
           <Link to="/Bem">03. BEM Css Style</Link>
         </li>
         <li>
-          <Link to="/Codetest">04. font Style dd</Link>
+          <Link to="/Import">04. Css import</Link>
         </li>
-        <li></li>
+        <li>
+          <Link to="/Example">05. Css Example</Link>
+        </li>
       </ul>
     </div>
   );
