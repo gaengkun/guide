@@ -1,0 +1,5 @@
+.chas{display:flex; flex: 1;}
+.mobile_padding{padding:0px 16px;}
+.title {height:56px; align-items: center; justify-content: center;}
+.title--text{font-size:18px; font-family: 'NanumSquare', sans-serif; font-weight: 700; transform: rotate(-0.001deg);}
+.title--prev{margin-right:auto;}
