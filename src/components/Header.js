@@ -22,7 +22,10 @@ const Header = () => {
           <Link to="/Example">05. Css Example</Link>
         </li>
         <li>
-          <Link to="/Sassbem">05. Sassbem</Link>
+          <Link to="/Sassbem">06. Sassbem</Link>
+        </li>
+        <li>
+          <Link to="/Code">07. Code Style</Link>
         </li>
       </ul>
     </div>

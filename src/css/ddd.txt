@@ -1,0 +1,88 @@
+.chas {
+  max-width: 320px;
+  margin: auto;
+  border: solid 1px #ccc;
+  overflow: hidden;
+}
+
+.mobile_padding {
+  padding: 0px 16px;
+}
+
+.title {
+  text-align: center;
+  height: 56px;
+  line-height: 56px;
+  border-bottom: solid 1px #eee;
+  position: relative;
+}
+
+  .title--text {
+    font-size: 18px;
+    font-family: "NanumSquare", sans-serif;
+    font-weight: 700;
+    transform: rotate(-0.001deg);
+    margin: auto;
+  }
+
+  .title--prev {
+    position: absolute;
+    left: 10px;
+    top: 18px;
+  }
+
+.list__title {
+  margin-top: 11px;
+  color: #632beb;
+  font-family: "NanumSquare", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px solid #632beb;
+
+}
+
+
+  .list__payment {
+    overflow: hidden;
+    height: 42px;
+    line-height: 42px;
+    border-bottom: solid 1px #e0e0e0;
+  }
+  .list__payment::after {
+    clear: both;
+  }
+
+  .payment--title {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .payment--chas {
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+.list__chas {
+  overflow: hidden;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: solid 1px #e0e0e0;
+}
+
+.list__chas::after {
+  clear: both;
+}
+
+.payment--pay {
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.pay {
+  font-size: 20px;
+  color: #632beb;
+}
